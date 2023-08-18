@@ -13,7 +13,7 @@ if ! command -v docker-compose &> /dev/null; then
 fi
 
 # Define the site name from command-line argument
-site_name="my-example.com"  # Change this to your desired site name
+site_name="example.com"  # Change this to your desired site name
 
 # Create docker-compose.yml file for WordPress
 cat <<EOF > docker-compose.yml
@@ -60,3 +60,4 @@ if [ "$2" == "delete" ]; then
     docker-compose down
     echo "Site deleted."
 fi
+

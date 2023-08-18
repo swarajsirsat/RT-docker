@@ -1,3 +1,6 @@
+Executable permission:
+$ chmod +x wordpress_manager.sh
+
 Manage the site:
 >./wordpress_manager.sh example.com enable
 > ./wordpress_manager.sh example.com disable
